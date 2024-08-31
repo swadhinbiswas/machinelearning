@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 500" width="500" height="500">
+  <!-- Globe Circle -->
+  <circle cx="250" cy="250" r="240" stroke="black" stroke-width="4" fill="none" />
+
+  <!-- Latitude Lines -->
+  <path d="M 10 250 A 240 240 0 0 1 490 250 A 240 240 0 0 1 10 250" stroke="black" stroke-width="1" fill="none" />
+  <path d="M 50 130 A 200 200 0 0 1 450 130 A 200 200 0 0 1 50 130" stroke="black" stroke-width="1" fill="none" />
+  <path d="M 50 370 A 200 200 0 0 0 450 370 A 200 200 0 0 0 50 370" stroke="black" stroke-width="1" fill="none" />
+
+  <!-- Longitude Lines -->
+  <path d="M 250 10 A 240 240 0 0 1 250 490" stroke="#31c0f4" stroke-width="1" fill="none" />
+  <path d="M 130 50 A 200 200 0 0 1 370 450" stroke="black" stroke-width="1" fill="none" />
+  <path d="M 370 50 A 200 200 0 0 0 130 450" stroke="black" stroke-width="1" fill="none" />
+
+  <!-- Stylized Continents -->
+  <path d="M 150 220 Q 140 170 190 160 Q 210 140 240 150 Q 270 160 280 190 Q 260 210 230 220 Q 200 240 150 220" 
+        stroke="#3be52e" stroke-width="2" fill="none" />
+  <path d="M 300 200 Q 340 180 350 210 Q 360 250 310 270 Q 290 250 300 200" 
+        stroke="#eb5c5c" stroke-width="2" fill="none" />
+  <path d="M 200 300 Q 230 290 260 310 Q 240 340 210 330 Q 180 320 200 300" 
+        stroke="#1eb219" stroke-width="2" fill="none" />
+
+  <!-- Subtle Shading for Depth -->
+  <path d="M 140 210 Q 190 250 240 210 Q 230 190 190 190 Q 160 200 140 210" 
+        stroke="#66b041" stroke-width="1" fill="none" opacity="0.6" />
+</svg>
