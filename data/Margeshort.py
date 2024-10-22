@@ -27,4 +27,3 @@ list2=[2,4,6,8]
 x=marge_Short(list1, list2)
 print(x)
 
-    
