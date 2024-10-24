@@ -1,3 +1,4 @@
 {
-  "python.analysis.autoImportCompletions": false
+  "python.analysis.autoImportCompletions": false,
+  "git.enableCommitSigning": true
 }
